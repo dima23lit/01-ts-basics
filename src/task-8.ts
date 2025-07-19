@@ -1,9 +1,9 @@
 import axios from "axios";
 
 interface Post {
-    id: Number;
-    title: String;
-    body: String;
+    id: number;
+    title: string;
+    body: string;
 }
 
 async function fetchPosts(): Promise<Post[]> {
